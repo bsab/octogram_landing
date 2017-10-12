@@ -173,6 +173,9 @@ h1,h2,h3,h4,h5,h6,a,ul,li{
 	background-color: #fff;
 	text-align: center;
 	line-height: 70px;
+	position:absolute;
+	bottom: -78px;
+
 }
 .apps-craft-btn.app-store-btn{
 	width: 180px;
@@ -271,12 +274,12 @@ h1,h2,h3,h4,h5,h6,a,ul,li{
 	background-image: linear-gradient(-106deg, #696864, #f2514c, #FFEB3C);
 }
 
-.apps-craft-feature-content:before {
-	background-image: -webkit-linear-gradient( 63deg, rgb(250,50,111) 0%, rgb(246,66,94) 53%, rgb(242,81,76) 100%);
+.apps-craft-feature-content {
+	background-image:  rgb(255,255,255) ;
 	background-image: -ms-linear-gradient( 63deg, rgb(250,50,111) 0%, rgb(246,66,94) 53%, rgb(242,81,76) 100%);
 }
 .apps-craft-feature-content i{
-	background-image: -webkit-linear-gradient( 42deg, rgb(242,81,76) 0%, rgb(246,66,94) 52%, rgb(250,50,111) 100%);
+	background-image:  rgb(255,255,255) ;
 	background-image: -ms-linear-gradient( 42deg, rgb(242,81,76) 0%, rgb(246,66,94) 52%, rgb(250,50,111) 100%);
 }
 .apps-craft-video-content a i {
@@ -296,8 +299,9 @@ h1,h2,h3,h4,h5,h6,a,ul,li{
 	color: #F45B64;
 }
 .apps-craft-testimonial-section{
-	background-color: #FFEB3C;
-	background-image: -webkit-linear-gradient( -20deg, rgb(242,81,76) 0%, rgb(242,81,76) 0%, rgb(242,81,77) 0%, rgb(242,80,77) 1%, rgb(246,65,94) 57%, rgb(250,50,111) 100%);
+	background-color: rgba(102, 102, 102, 0.78);
+	background-image:-webkit-linear-gradient( -94deg, white, grey);
+
 	background-image: -ms-linear-gradient( -20deg, rgb(242,81,76) 0%, rgb(242,81,76) 0%, rgb(242,81,77) 0%, rgb(242,80,77) 1%, rgb(246,65,94) 57%, rgb(250,50,111) 100%);
 }
 .apps-craft-commentor-img figcaption {
@@ -318,11 +322,12 @@ h1,h2,h3,h4,h5,h6,a,ul,li{
 	border-left: 1px dashed #F04F4C;
 }
 .apps-craft-subscribe-wraper{
-	background-image: -webkit-linear-gradient( -20deg, rgb(242,81,76) 0%, rgb(242,81,76) 0%, rgb(242,81,77) 0%, rgb(242,80,77) 1%, rgb(246,65,94) 57%, rgb(250,50,111) 100%);
+	background: yellow;
+	background: -webkit-linear-gradient(left bottom, white, #FFEB3C);
 	background-image: -ms-linear-gradient( -20deg, rgb(242,81,76) 0%, rgb(242,81,76) 0%, rgb(242,81,77) 0%, rgb(242,80,77) 1%, rgb(246,65,94) 57%, rgb(250,50,111) 100%);
 }
 .apps-craft-subscribe-form input[type="submit"]{
-	background-color: #f25552;
+	background-color: rgba(119, 119, 119, 0.52);
 }
 .apps-craft-accordion .panel-title a:before{
 	background-color: #f34e50;
@@ -362,7 +367,7 @@ h1,h2,h3,h4,h5,h6,a,ul,li{
 .apps-craft-solid-color .apps-craft-accordion .panel-title a.collapsed:before,
 .apps-craft-solid-color .apps-craft-feature-content i ,
 .apps-craft-solid-color .apps-craft-single-fun i {
-	color: #1DA1F2;
+	color: #FFEB3C;
 }
 
 .apps-craft-solid-color .apps-craft-section-heading h2 {
@@ -1081,6 +1086,8 @@ body.apps-craft-v7 .apps-craft-position-rel .layer img {
 	padding: 20px 20px;
 	position: relative;
 	z-index: 2;
+	width: 345px;
+	height: 226px;
 }
 .apps-craft-feature-content:before {
 	position: absolute;
@@ -1126,13 +1133,13 @@ body.apps-craft-v7 .apps-craft-position-rel .layer img {
 .apps-craft-feature-content:hover i{
 	color: #333333;
 	background: none;
-	background-color: #FEEDEF;
+	background-color: #FFEB3C;
 }
 .apps-craft-feature-content:hover h3{
-	color: #FFFFFF;
+	color: black;
 }
 .apps-craft-feature-content:hover p{
-	color: #DDDDDD;
+	color: black;
 }
 .apps-craft-feature-img figure{
 	position: relative;
@@ -1456,7 +1463,10 @@ figure.apps-craft-why-chose-img img:first-child {
 	z-index: 99;
 }
 figure.apps-craft-why-chose-img img:last-child {
-	width: 375px;
+	width: 307px;
+	position: relative;
+	margin: 44px;
+	bottom: 53px;
 }
 .apps-craft-why-chose-img{
 	float: right;
@@ -2688,4 +2698,17 @@ body.apps-craft-v9 .apps-craft-welcome-content h1 {
 }
 body.apps-craft-v9 .apps-craft-welcome-section .apps-craft-welcome-tbl {
     height: 650px;
+}
+
+
+.imageScreen{
+	position: absolute;
+	width: 250px;
+	right: -80px;
+}
+
+.butt{
+	position:absolute;
+	right: 667px;
+	bottom: 184px;
 }
