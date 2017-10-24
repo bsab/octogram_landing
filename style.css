@@ -64,7 +64,7 @@ Section Description:    14px/1 'Poppins', sans-serif;
 ====================================================================================*/
 
 body {
-	font-family: 'Poppins', sans-serif;
+	font-family: 'Quicksand', sans-serif;
 	font-size: 14px;
 	font-weight: 300;
 	line-height: 1.5;
@@ -174,9 +174,23 @@ h1,h2,h3,h4,h5,h6,a,ul,li{
 	text-align: center;
 	line-height: 70px;
 	position:absolute;
-	bottom: -78px;
-
+	bottom: 90px;
+	left: 479px;
 }
+
+.apps-craft-btn.play-store-btn2 {
+	display: inline-block;
+	width: 180px;
+	height: 70px;
+	border-radius: 3px;
+	background-color: #fff;
+	text-align: center;
+	line-height: 70px;
+	position: absolute;
+	bottom: -88px;
+	left: 67px;
+}
+
 .apps-craft-btn.app-store-btn{
 	width: 180px;
 	height: 70px;
@@ -763,7 +777,7 @@ body.apps-craft-video-banner .apps-craft-welcome-container {
 .apps-craft-welcome-content h1{
 	font-size: 3.429em;
 	margin: 0;
-	text-transform: capitalize;
+
 	line-height: 1.5;
 	font-weight: 300;
 	margin-bottom: 70px;
@@ -1150,14 +1164,15 @@ body.apps-craft-v7 .apps-craft-position-rel .layer img {
 	position: absolute;
 }
 .apps-craft-feature-img .icon-1x{
-	left: 0px;
+	left: -184px;
 	top: 163px;
 	width: 93px;
 }
 .apps-craft-feature-img .icon-2x{
-	left: 0;
-	top: 133px;
+	left: -186px;
+	top: 88px;
 	width: 64px;
+}
 }
 .apps-craft-feature-img .icon-3x{
 	left: 0;
@@ -1165,8 +1180,8 @@ body.apps-craft-v7 .apps-craft-position-rel .layer img {
 	width: 24px;
 }
 .apps-craft-feature-img .icon-4x{
-	left: 0;
-	top: -17px;
+	left: -51px;
+	top: -37px;
 	width: 73px;
 }
 .apps-craft-feature-img .icon-5x{
@@ -1181,13 +1196,13 @@ body.apps-craft-v7 .apps-craft-position-rel .layer img {
 }
 .apps-craft-feature-img  .icon-7x{
 	top: 0;
-	left: 60px;
+	left: 112px;
 	width: 119px;
 }
 .apps-craft-feature-img  .icon-8x{
 	top: 0;
 	left: inherit;
-	right: 30px;
+	right: 129px;
 	width: 70px;
 }
 .apps-craft-feature-img  .icon-9x{
@@ -1204,13 +1219,13 @@ body.apps-craft-v7 .apps-craft-position-rel .layer img {
 .apps-craft-feature-img  .icon-11x{
 	top: -40px;
 	left: inherit;
-	right: 0;
+	right: 220px;
 	width: 129px;
 }
 .apps-craft-feature-img  .icon-12x{
 	top: 70px;
 	left: inherit;
-	right: 0;
+	right: -43px;
 	width: 112px;
 }
 .apps-craft-feature-img  .icon-13x{
@@ -2700,7 +2715,47 @@ body.apps-craft-v9 .apps-craft-welcome-section .apps-craft-welcome-tbl {
     height: 650px;
 }
 
+#copyright,
+#footer {
+	overflow: hidden;
+	bottom:0;
+	left: 50px;
+}
 
+.PP{
+	position: relative;
+	bottom: -69px;
+	left: 650px;
+	z-index: 10;
+	display: block;
+	margin-left:200px;
+
+}
+
+.container2P {
+	padding-right: 15px;
+	padding-left: 15px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 200px;
+
+}
+
+.colP {
+	width: 100%;
+	bottom: -112px;
+	position: relative;
+}
+.copyright-wrap,
+#footer-wrap {
+	margin: 0 auto;
+	position: relative;
+	max-width: 1200px;
+	width: 100%;
+	z-index: 2;
+	overflow: hidden;
+	bottom: 0;
+}
 .imageScreen{
 	position: absolute;
 	width: 250px;
