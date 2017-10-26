@@ -143,7 +143,7 @@ h1,h2,h3,h4,h5,h6,a,ul,li{
 	margin-top: 130px;
 }
 .apps-craft-sub-scribe-section.section-padding {
-	padding: 230px 0 130px 0;
+	padding: 68px 0 130px 0;
 }
 .apps-craft-feature-section .content-margin-top {
 	margin-top: 200px;
@@ -253,7 +253,7 @@ h1,h2,h3,h4,h5,h6,a,ul,li{
 	width: 100%;
 	background-color: #fff;
 	z-index: 99999999999999;
-	background-image: url(img/Preloader_1.gif);
+	background-image: url(../img/Preloader_1.gif);
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-position: center center;
@@ -283,9 +283,9 @@ h1,h2,h3,h4,h5,h6,a,ul,li{
 .apps-craft-section-heading h2{
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
-	background-image: -webkit-linear-gradient(-106deg, #696864, #f2514c, #FFEB3C);
-	background-image: -webkit-linear-gradient(196deg, #696864, #f2514c, #FFEB3C);
-	background-image: linear-gradient(-106deg, #696864, #f2514c, #FFEB3C);
+	background-image: -webkit-linear-gradient(-106deg, #FFEB3C,#EF5350,#232838);
+	background-image: -webkit-linear-gradient(-196deg, #FFEB3C,#EF5350, #232838);
+	background-image: linear-gradient(-106deg, #FFEB3C,#EF5350,#232838);
 }
 
 .apps-craft-feature-content {
@@ -304,10 +304,10 @@ h1,h2,h3,h4,h5,h6,a,ul,li{
 	-webkit-text-fill-color: transparent;   
 }
 .fun-factorey-paralx-bg-1 {
-	background-image: url(img/fun-factory-bg-1.png);
+	background-image: url(../img/fun-factory-bg-1.png);
 }
 .fun-factorey-paralx-bg-2 {
-	background-image: url(img/fun-factory-bg-2.png);
+	background-image: url(../img/fun-factory-bg-2.png);
 }
 .apps-craft-single-fun i{
 	color: #F45B64;
@@ -337,7 +337,7 @@ h1,h2,h3,h4,h5,h6,a,ul,li{
 }
 .apps-craft-subscribe-wraper{
 	background: yellow;
-	background: -webkit-linear-gradient(left bottom, white, #FFEB3C);
+
 	background-image: -ms-linear-gradient( -20deg, rgb(242,81,76) 0%, rgb(242,81,76) 0%, rgb(242,81,77) 0%, rgb(242,80,77) 1%, rgb(246,65,94) 57%, rgb(250,50,111) 100%);
 }
 .apps-craft-subscribe-form input[type="submit"]{
@@ -434,19 +434,19 @@ h1,h2,h3,h4,h5,h6,a,ul,li{
 	background-color: #1da1f2;
 }
 .apps-craft-solid-color .fun-factorey-paralx-bg-1 {
-	background-image: url(img/blue-v/blue-fun-factory-bg-1.png);
+	background-image: url(../img/blue-v/blue-fun-factory-bg-1.png);
 }
 .apps-craft-solid-color .apps-craft-pricing-1 {
-	background-image: url(img/blue-v/blue-pricing-body-bg-1.png);
+	background-image: url(../img/blue-v/blue-pricing-body-bg-1.png);
 }
 .apps-craft-solid-color .apps-craft-pricing-2 {
-	background-image: url(img/blue-v/blue-pricing-body-bg-2.png);
+	background-image: url(../img/blue-v/blue-pricing-body-bg-2.png);
 }
 .apps-craft-solid-color .apps-craft-pricing-3 {
-	background-image: url(img/blue-v/blue-pricing-body-bg-3.png);
+	background-image: url(../img/blue-v/blue-pricing-body-bg-3.png);
 }
 .apps-craft-solid-color .apps-craft-footer-section  {
-	background-image: url(img/blue-v/blue-footer-bg.png);
+	background-image: url(../img/blue-v/blue-footer-bg.png);
 }
 .apps-craft-solid-color .apps-craft-btn.solid-color {
 	background-color: #1da1f2;
@@ -483,7 +483,7 @@ h1,h2,h3,h4,h5,h6,a,ul,li{
 	font-size: 1.0em;
 	display: block;
 	padding: 8px 0;
-	margin: 0 17px;
+	margin: 0 16px;
 	font-weight: 400;
 	-webkit-transition: all .4s linear;
 	transition: all .4s linear;
@@ -537,7 +537,7 @@ h1,h2,h3,h4,h5,h6,a,ul,li{
 	opacity: 0;
 }
 .apps-craft-main-menu-area.sticky-menu .apps-craft-logo a {
-	background-image: url(img/sticky-logo.png) !important;
+	background-image: url(../img/sticky-logo.png) !important;
 	background-size: contain;
 	padding: 3px 0px;
 	width: 100%;
@@ -551,7 +551,7 @@ h1,h2,h3,h4,h5,h6,a,ul,li{
 	color: #1DA1F2;
 }
 .apps-craft-solid-color .apps-craft-main-menu-area.sticky-menu .apps-craft-logo a {
-	background-image: url(img/blue-v-sticky-logo.png) !important;
+	background-image: url(../img/blue-v-sticky-logo.png) !important;
 }
 .la-ball-elastic-dots,
 .la-ball-elastic-dots > div {
@@ -723,14 +723,14 @@ body.apps-craft-solid-color .la-ball-elastic-dots {
 	left: 0;
 	height: 818px;
 	width: 100%;
-	background-image: url(img/version-3-welcome-shape-2.png);
+	background-image: url(../img/version-3-welcome-shape-2.png);
 	background-repeat: no-repeat;
 	background-size: 100% 100%;
 	background-position: bottom center;
 }
 .apps-craft-welcome-section-v3.apps-craft-welcome-section:after ,
 .apps-craft-welcome-section-v4.apps-craft-welcome-section:after {
-	background-image: url(img/version-3-welcome-shape-1.png);
+	background-image: url(../img/version-3-welcome-shape-1.png);
 	height: 741px;
 }
 
@@ -979,7 +979,7 @@ body.apps-craft-v7 .apps-craft-position-rel {
 	left: 0;
 	width: 100%;
 	height: 500px;
-	background-image: url(img/version-4-welcome-white.png);
+	background-image: url(../img/version-4-welcome-white.png);
 	background-size: 100%;
 	background-position: top center;
 	background-repeat: no-repeat;
@@ -1052,7 +1052,7 @@ body.apps-craft-v7 .apps-craft-position-rel .layer img {
 }
 .apps-craft-single-about span{
 	font-size: 2.857em;
-	background-image: url(img/about-ico-bg.png);
+	background-image: url(../img/about-ico-bg.png);
 	background-repeat: no-repeat;
 	background-position: center center;
     background-size: contain;
@@ -1283,7 +1283,7 @@ body.apps-craft-v7 .apps-craft-position-rel .layer img {
 	right: 0;
 	height: 100%;
 	width: 100%;
-	background-image: url(img/video-bg-overlay.png);
+	background-image: url(../img/video-bg-overlay.png);
 	background-repeat: no-repeat;
 	background-position: 100% 50%;
 	background-size: 50%;
@@ -1461,7 +1461,7 @@ body.apps-craft-v6 .apps-craft-video-content a i {
 	background-color: #FEFEFE;
 }
 #apps-craft-chose-us {
-	background-image: url(img/why-choose-us-bg.png);
+	background-image: url(../img/why-choose-us-bg.png);
 	background-repeat: repeat;
 }
 .apps-craft-why-chose-us-section .content-margin-top {
@@ -1530,7 +1530,7 @@ figure.apps-craft-why-chose-img img:last-child {
     left: 20%;
     min-height: 676px;
     width: 359px;
-    background: url(img/iphone-skeleton.png) no-repeat center center;
+    background: url(../img/iphone-skeleton.png) no-repeat center center;
 }
 .device-content {
     position: absolute;
@@ -1851,13 +1851,13 @@ blockquote.team-quote p {
     text-transform: capitalize;
 }
 .apps-craft-pricing-1 {
-	background-image: url(img/pricing-body-bg-1.png);
+	background-image: url(../img/pricing-body-bg-1.png);
 }
 .apps-craft-pricing-2 {
-	background-image: url(img/pricing-body-bg-2.png);
+	background-image: url(../img/pricing-body-bg-2.png);
 }
 .apps-craft-pricing-3 {
-	background-image: url(img/pricing-body-bg-3.png);
+	background-image: url(../img/pricing-body-bg-3.png);
 }
 
 
@@ -1873,7 +1873,7 @@ blockquote.team-quote p {
 	background-attachment: fixed;
 }
 .team-parallax-bg{
-	background-image: url(img/team-bg.png);
+	background-image: url(../img/team-bg.png);
 	background-repeat: repeat-x;
 	background-attachment: fixed;
 }
@@ -2028,11 +2028,12 @@ blockquote.team-quote p {
 
 .apps-craft-subscribe-wraper{
 	position: relative;
-	background-color: #fff;
+	background-color: #FFEB3C;
 	box-shadow: 0px 29px 43px 0px rgba(0, 0, 0, 0.21);
 	text-align: center;
 	padding: 162px 0;
 	min-height: 410px;
+	margin-top: 116px;
 }
 .apps-craft-subscribe-wraper:before ,
 .apps-craft-subscribe-wraper:after {
@@ -2283,13 +2284,14 @@ body.apps-craft-v6 .apps-craft-subscribe-content {
 ===========================================================================*/
 
 .apps-craft-footer-section {
-	background-color: #F4F4F4;
+	height: 754px;
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center center;
-	padding-bottom: 80px;
-	padding-top: 360px;
-	background-image: url(img/footer-bg.png);
+	padding-bottom: 93px;
+	padding-top: 176px;
+	margin-top: -193px;
+	background-image: url(../img/footer-bg.png);
 }
 .apps-craft-subscribe-form-box-shadow {
 	background-color: rgba(244,244,244,.98);
@@ -2677,7 +2679,7 @@ label.apps-craft-subscribed-label{
     height: 100%;
     z-index: -1;
     content: "";
-    background: url(img/mobile.png) center center / 100% 100% no-repeat scroll;
+    background: url(../img/mobile.png) center center / 100% 100% no-repeat scroll;
 }
 .apps-craft-banner-swiper {
     position: absolute;
@@ -2728,7 +2730,7 @@ body.apps-craft-v9 .apps-craft-welcome-section .apps-craft-welcome-tbl {
 	left: 650px;
 	z-index: 10;
 	display: block;
-	margin-left:200px;
+	margin-left:190px;
 
 }
 
@@ -2766,4 +2768,52 @@ body.apps-craft-v9 .apps-craft-welcome-section .apps-craft-welcome-tbl {
 	position:absolute;
 	right: 667px;
 	bottom: 184px;
+}
+#contact {
+	overflow: hidden;
+}
+.contact, .form input, .contact, .form textarea{
+	width: 100%;
+	padding: 15px 20px;
+	border: 1px solid;
+	opacity: .5;
+	transition: all .5s;
+
+}
+
+ .contact_form {
+	 width: calc(60% - 30px);
+	 background: rgba(255,255,255,.02);
+	 color: #c6c6c6;
+	 padding: 14px 28px 25px;
+	 text-align: center;
+	 position: relative;
+	 left: 254px;
+}
+.input2{
+	margin: 7px;
+	font: inherit ;
+	color: black;
+}
+button,  select, textarea {
+	margin: 0px;
+	font: inherit ;
+	color: black;
+}
+.relative {
+	position: relative!important;
+}
+
+.cover, section {
+	background-size: cover!important;
+	background-position: center center;
+	background-repeat: no-repeat;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+	display: block;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+	display: block;
 }

@@ -29,7 +29,7 @@
 		<!-- Animate Stylesheet -->
 		<link rel="stylesheet" href="css/material-design-iconic-font.css" />
 		<!-- Iconic Font Stylesheet -->
-		<link rel="stylesheet" href="style.css">
+		<link rel="stylesheet" href="css/style.css">
 		<!-- Main Style.css Stylesheet -->
 		<link rel="stylesheet" href="css/responsive.css">
 		<!-- Resposive.css Stylesheet -->
@@ -55,18 +55,21 @@
 				<div class="col-md-9 col-sm-9 col-xs-6">
 					<div class="apps-craft-menu-and-serach clear-both">
                     	<span id="apps-craft-main-menu-icon">
-							<div class="la-ball-elastic-dots la-2x item-generate" style="color:#fa326f">
+							<!--<div class="la-ball-elastic-dots la-2x item-generate" style="color:#fa326f">
 							    <div></div>
 							    <div></div>
 							    <div></div>                    
-							</div>
+							</div>-->
                     	</span>
 						<nav id="apps-craft-menu" class="apps-craft-menu">
 							<ul>
 								<li><a href="#apps-craft-home">Home</a></li>
 								<li><a href="#apps-craft-feature">Caratteristiche</a></li>
+								<li><a href="#cosaFa">Cosa fa</a></li>
 								<li><a href="#apps-craft-chose-us">Come funziona</a></li>
 								<li><a href="#apps-craft-pricing">Costo</a></li>
+								<li><a href="#apps-craft-subscribe">Prova gratuita</a></li>
+								<li><a href="#contatti">Contatti</a></li>
 								<!--<li><a href="#apps-craft-team">team</a></li>
 								<li><a href="#apps-craft-faq">Question?</a></li>-->
 							</ul>
@@ -161,7 +164,7 @@
 				<h2>Caratteristiche</h2>
 			</div> <!-- .apps-craft-section-heading END -->
 			<div class="row content-margin-top">
-				<div class="col-md-6 col-sm-12 col-xs-12">
+				<div class="col-md-6 col-sm-12 col-xs-12 hidden-xs">
 					<div class="apps-craft-feature-img text-center" itemscope itemtype="http://schema.org/ImageGallery">
 						<figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
 							<div class="imageScreen">
@@ -234,8 +237,8 @@
 						</figure>
 					</div>
 				</div>
+				<div class="col-md-4 col-sm-4 col-xs-12 style="left: 533px;">
 
-				<div class="col-md-8 col-sm-12 col-xs-12" style="left: 533px;">
 					<div class="apps-craft-feature-container clear-both">
 						<div class="apps-craft-single-feature">
 							<div class="apps-craft-feature-content wow fadeIn" >
@@ -338,6 +341,18 @@
 	</div>
 	-->
 
+	<section class="apps-craft-why-chose-us-section section-padding" id="cosaFa" data-0="background-position:0px 10000px;" data-100000="background-position:0px -50000px;">
+		<div class="container">
+
+			<div class="apps-craft-section-heading">
+				<h2>Cosa fa</h2>
+			</div>
+			<p style="font-size: 30px;margin-top: 90px;">Octogram permette la gestione dei profili instagram nel modo più facile e intuitivo possibile.
+				Con Octogram, riuscirai ad aumentare significativamente il numero dei tuoi followers e like grazie alla personalizzazione delle campagne
+				e all'utilizzo mirato di hashtag e trend topic.</p>
+
+		</div>
+	</section>
 
 	<!-- Apps Crfat Why Chose Us Section -->
 	<section class="apps-craft-why-chose-us-section section-padding" id="apps-craft-chose-us" data-0="background-position:0px 10000px;" data-100000="background-position:0px -50000px;">
@@ -434,6 +449,7 @@
 			</div>
 		</div>
 	</section>
+<!-- .apps-craft-section-heading END -->
 
 
 	<!-- Apps Craft Pricing -->
@@ -451,9 +467,10 @@
 						</div> <!-- .apps-craft-pricing-head END -->
 						<div class="apps-craft-pricing-body">
 							<h2>€0.99</h2>
-							<p>1 giorno </p>
-
-							<a href="http://octogram.herokuapp.com/octogram/login/" class="apps-craft-btn solid-color">Purchase</a>
+							<p>
+							<b style="font-size: medium; font:bold">1 giorno </b>
+							</p>
+							<a href="http://octogram.herokuapp.com/octogram/login/" class="apps-craft-btn solid-color">Acquista</a>
 						</div> <!-- .apps-craft-pricing-body END -->
 					</div> <!-- .apps-craft-single-pricing END .apps-craft-pricing-1 END -->
 				</div>
@@ -464,9 +481,10 @@
 						</div> <!-- .apps-craft-pricing-head END -->
 						<div class="apps-craft-pricing-body">
 							<h2>€2.99</h2>
-							<p>3 giorni</p>
-
-							<a href="#" class="apps-craft-btn solid-color">Purchase</a>
+							<p>
+							<b style="font-size: medium">3 giorni</b>
+							</p>
+							<a href="#" class="apps-craft-btn solid-color">Acquista</a>
 						</div> <!-- .apps-craft-pricing-body END -->
 					</div> <!-- .apps-craft-single-pricing END .apps-craft-pricing-2 END -->
 				</div>
@@ -477,9 +495,10 @@
 						</div> <!-- .apps-craft-pricing-head END -->
 						<div class="apps-craft-pricing-body">
 							<h2>€6.99</h2>
-							<p>7 giorni</p>
-
-							<a href="#" class="apps-craft-btn solid-color">Purchase</a>
+							<p>
+							<b style="font-size: medium">7 giorni</b>
+							</p>
+							<a href="#" class="apps-craft-btn solid-color">Acquista</a>
 						</div> <!-- .apps-craft-pricing-body END -->
 					</div> <!-- .apps-craft-single-pricing END .apps-craft-pricing-3 END -->
 				</div>
@@ -630,7 +649,11 @@
 	
 	<!-- Apps Craft Subscribe Section -->
 	<section class="apps-craft-sub-scribe-section section-padding" id="apps-craft-subscribe">
-		<div class="container">
+				<div class="container">
+					<div class="apps-craft-section-heading">
+						<h2>Prova Gratuita</h2>
+						<br>
+					</div>
 			<div class="row">
 				<div class="col-md-12">
 					<div class="apps-craft-subscribe-wraper wow fadeIn">
@@ -733,13 +756,124 @@
 			</div>
 		</div>
 	</section> <!-- .apps-craft-faq-section END -->
+	<section class="apps-craft-sub-scribe-section section-padding" id="contatti">
+		<div class="col-md-4 col-sm-4 col-xs-12">
+		<div class="container">
 
+
+		<div class="grayscale-bg absolute background24 light-bg parallax9" style="background-position: 50% 23px; ""></div>
+			<div class="apps-craft-section-heading" >
+				<h2>Rimani in contatto con noi</h2>
+				<br>
+			</div>
+		<!-- Inner -->
+		<div class="inner t-center clearfix no-black-white animated fadeIn visible" data-animation="fadeIn" data-animation-delay="800">
+			<!-- Header -->
+
+			<!-- Header Text -->
+			<center><h3>
+				Ci piacerebbe ricevere qualsiasi tuo feedback, o rispondere a qualsiasi domanda tu possa avere.
+			</h3></center>
+
+						<div class="details">
+
+						</div>
+						<!-- Right Secret Button -->
+						<div class="button">
+
+						</div>
+					</a>
+					<!-- End Box -->
+
+
+					<br>
+
+					<!-- Address Box -->
+					<a class="box light">
+						<!-- Details -->
+						<div class="address-note">
+
+						</div>
+					</a>
+					<!-- End Box -->
+
+					<!-- Address Box -->
+					<div class="socials">
+
+						<!-- Social Button -->
+						<a href="http://www.facebook.com/socialenvynz" target="_blank" class="facebook">
+							<i class="fa fa-facebook"></i>
+						</a>
+
+						<!-- Social Button -->
+						<a href="http://www.instagram.com/socialenvyofficial" target="_blank" class="instagram">
+							<i class="fa fa-instagram"></i>
+						</a>
+
+
+
+					</div>
+					<!-- End Box -->
+
+				</div>
+				<!-- End Address -->
+
+				<!-- Contact Form -->
+				<div class="contact_form f-right">
+					<form id="contactform" name="cform" class="clearfix form dark_form contact-form clearfix form normal antialiased" method="post" action="./contact/includes/contact-process.php">
+						<!-- 50% inputs -->
+
+						<!-- Left Item -->
+						<div class="input2">
+						<!-- Name -->
+						<input type="text" name="name" id="name" placeholder="Nome" >
+						</div>
+						<!-- Right Item -->
+						<div class="input2">
+						<!-- Email -->
+						<input type="email" name="email" id="email" placeholder="E-Mail">
+						</div>
+						<div class="input2">
+						<!-- Message -->
+						<textarea name="message" id="message" placeholder="Messsaggio"></textarea>
+						<div class="note">
+
+						</div>
+						<!-- Verify Math / You can delete blockers for Math Verify -->
+						<!-- <input type="text" name="verify" id="verify" required placeholder=""> -->
+						<!-- 	<button type="reset" id="clear" name="clear">Azzera</button>
+                            Send Button -->
+						</div>
+						<button type="submit" id="submit" name="submit">Invia</button>
+						<!-- Error Message
+						<div class="error_message">
+							<p class="t-left no-margin">
+								<i class="fa fa-warning"></i>
+								Validation error occured. Please enter the fields and submit it again.
+							</p>
+						</div>
+						<div class="submit_message">
+							<p class="t-left no-margin"
+								<i class="fa fa-check"></i>
+								Thank You ! Your email has been delivered.
+							</p>
+						</div>-->
+					</form>
+					<!-- End Form -->
+				</div>
+				<!-- End Contact Form -->
+			</div>
+			<!-- End Contact, Address Area -->
+		</div>
+		<!-- End Inner -->
+			</div>
+	</section>
 
 	<!-- Apps Craft Footer Section -->
 	<footer class="apps-craft-footer-section" id="apps-craft-footer">
 		<div class="container">
 			<div class="row">
-				<div class="col-md-12">
+				<div class="col-md-12" style="bottom: -83px;">
 					<div class="apps-craft-subscribe-content">
 						<div class="wow fadeInUp" data-wow-delay=".3s">
 							<h2><span>Sottoscriviti</span> alla Newsletter per rimanere aggiornato!</h2>
@@ -771,6 +905,7 @@
 		<div class="PP">
 		<a href="Privacy Policy.html" target="blank">Privacy Policy</a>
 			<a href="Termini e condizioni.html" target="blank"> - Termini e Condizioni</a>
+			</div>
 	</div>
 	</footer> <!-- .apps-craft-footer-section END -->
 
