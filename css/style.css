@@ -143,7 +143,7 @@ h1,h2,h3,h4,h5,h6,a,ul,li{
 	margin-top: 130px;
 }
 .apps-craft-sub-scribe-section.section-padding {
-	padding: 68px 0 130px 0;
+	padding: 130px 0 130px 0;
 }
 .apps-craft-feature-section .content-margin-top {
 	margin-top: 200px;
@@ -1048,7 +1048,7 @@ body.apps-craft-v7 .apps-craft-position-rel .layer img {
 
 .apps-craft-single-about {
 	text-align: center;
-	color: #FFFFFF;
+	color: #666666;
 }
 .apps-craft-single-about span{
 	font-size: 2.857em;
@@ -2729,7 +2729,7 @@ body.apps-craft-v9 .apps-craft-welcome-section .apps-craft-welcome-tbl {
 	left: 650px;
 	z-index: 10;
 	display: block;
-	margin-left:190px;
+	margin-left:100px;
 
 }
 
