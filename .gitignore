@@ -91,10 +91,7 @@ ENV/
 Thumbs.db
 
 media/
-memories.db
 .settings/
-celerybeat.pid
-.pydevproject
 .idea/
 .idea/dataSources.local.xml
 .idea/dataSources.xml
